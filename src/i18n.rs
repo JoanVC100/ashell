@@ -10,6 +10,7 @@ use log::warn;
 use unic_langid::LanguageIdentifier;
 
 const CATALOGS: &[(&str, &str)] = &[
+    ("ca-ES", include_str!("../i18n/ca-ES/ashell.ftl")),
     ("en-US", include_str!("../i18n/en-US/ashell.ftl")),
     ("fr-FR", include_str!("../i18n/fr-FR/ashell.ftl")),
 ];
