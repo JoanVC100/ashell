@@ -1,15 +1,14 @@
 # Traducció catalana. Les noves claus s'afegeixen primer al catàleg en-US. Els
 # altres locals heretaran a través de la negociació Fluent i el replegament.
 
-
 app-name = ashell
 
 ## Mòdul d'actualitzacions
 updates-up-to-date = Tot actualitzat ;)
 updates-available =
     { $count ->
-            [one] { $count } Actualització disponible
-	   *[other] { $count } Actualitzacions disponibles
+        [one] { $count } Actualització disponible
+       *[other] { $count } Actualitzacions disponibles
     }
 updates-button-update = Actualitza
 updates-button-check-now = Comprova ara
@@ -35,8 +34,8 @@ password-dialog-confirm = Confirma
 ## OSD
 osd-airplane-toggle =
     { $state ->
-            [on] Mode avió activat
-           *[off] Mode avió desactivat
+        [on] Mode avió activat
+       *[off] Mode avió desactivat
     }
 osd-idle-inhibitor-toggle =
     { $state ->
@@ -53,8 +52,8 @@ settings-network-wifi = Wi-Fi
 settings-network-vpn = VPN
 settings-network-vpns-connected =
     { $count ->
-            [one] { $count } VPN connectada
-           *[other] { $count } VPN connectades
+        [one] { $count } VPN connectada
+       *[other] { $count } VPN connectades
     }
 settings-network-airplane-mode = Mode avió
 settings-network-nearby-wifi = Wi-Fi a prop
@@ -68,8 +67,8 @@ settings-bluetooth-pair = Emparella
 settings-bluetooth-no-devices = No s'han trobat dispositius
 settings-bluetooth-connected-count =
     { $count ->
-            [one] { $count } dispositiu
-           *[other] { $count } dispositius
+        [one] { $count } dispositiu
+       *[other] { $count } dispositius
     }
 
 ## Configuració — energia
